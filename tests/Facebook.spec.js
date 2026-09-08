@@ -25,5 +25,5 @@ custombase.only("Facebook 2 test", async ({page, datafixture})=>{
     const fblogin = await poManager.getFacebooklogin();
     await fblogin.gotoURL('https://www.facebook.com');
     await fblogin.loginToFacebook(datafixture.username, datafixture.password);
-    await expect(page).toHaveTitle('facebook');
+    await expect(page).toHaveTitle('Facebook');
 })
