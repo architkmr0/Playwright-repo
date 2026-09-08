@@ -1,0 +1,24 @@
+{
+  "name": "playwrightrahulshetty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/Facebook.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.1",
+    "allure": "^3.16.0",
+    "allure-playwright": "^3.11.1",
+    "playwright": "^1.62.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1"
+  }
+}
