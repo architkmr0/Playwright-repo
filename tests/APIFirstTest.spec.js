@@ -23,4 +23,8 @@ test('second test', async()=>{
 
 })
 
+test('new test', async()=>{
+    console.log
+})
+
 
