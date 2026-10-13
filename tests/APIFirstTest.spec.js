@@ -25,6 +25,7 @@ test('second test', async()=>{
 
 test('new test', async()=>{
     console.log("new change")
+    console.log("one more commit")
 })
 
 
